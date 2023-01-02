@@ -3,7 +3,7 @@ package com.aregyan.ismawantoagung.database
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.aregyan.ismawantoagung.domain.UserDetails
-// Pada baris 7-14 kelas memiliki tabel SQLite pemetaan dalam database.
+// Todo 5: Pada baris 7-14 kelas entitas dalam database.
 @Entity
 data class DatabaseUserDetails constructor(
     @PrimaryKey
@@ -13,7 +13,7 @@ data class DatabaseUserDetails constructor(
     val userSince: String,
     val location: String
 )
-// Pada baris 17-23 digunakan untuk membuat fungsi
+// Pada baris 17-23 digunakan untuk membuat fungsiuser
 fun DatabaseUserDetails.asDomainModel(): UserDetails {
     return UserDetails(
         user = user,

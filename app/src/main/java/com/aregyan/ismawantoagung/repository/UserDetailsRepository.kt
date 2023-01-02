@@ -9,7 +9,7 @@ import com.aregyan.ismawantoagung.network.UserDetailsService
 import com.aregyan.ismawantoagung.network.model.asDatabaseModel
 import timber.log.Timber
 import javax.inject.Inject
-//Berisi semua repositori user detail
+// Todo 3: Berisi semua repositori user detail
 class UserDetailsRepository @Inject constructor(
     private val userDetailsService: UserDetailsService,
     private val database: UsersDatabase

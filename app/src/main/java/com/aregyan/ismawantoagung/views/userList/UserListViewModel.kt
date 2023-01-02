@@ -7,7 +7,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-//Untuk membuat pusat komunikasi antara data dan UI
+//Todo 6: Untuk kelas view model
 @HiltViewModel
 class UserListViewModel @Inject constructor(
     private val userListRepository: UserListRepository

@@ -2,7 +2,7 @@ package com.aregyan.ismawantoagung.domain
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-// Model yang digunakan oleh UI dalam user detail
+// Todo 2: Untuk kelas view model
 @Parcelize
 data class UserDetails(
     val user: String? = "",

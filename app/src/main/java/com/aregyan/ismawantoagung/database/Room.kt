@@ -2,7 +2,7 @@ package com.aregyan.ismawantoagung.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-// Kelas utama untuk menentukan interaksi database.
+// Todo 4: Untuk kelas database.
 @Dao
 interface UsersDao {
 

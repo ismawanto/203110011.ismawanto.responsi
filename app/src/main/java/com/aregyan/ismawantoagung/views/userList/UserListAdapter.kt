@@ -9,7 +9,7 @@ import com.aregyan.github.databinding.ItemUsersListBinding
 import com.aregyan.ismawantoagung.domain.UserListItem
 import dagger.hilt.android.scopes.FragmentScoped
 import javax.inject.Inject
-//Untuk menambahkan recyclerview
+//Todo 7: kelas untuk recyclerview atau adapter
 @FragmentScoped
 class UsersListAdapter @Inject constructor(val clickListener: ClickListener) :
     ListAdapter<UserListItem, UsersListAdapter.ViewHolder>(UsersListDiffCallback()) {

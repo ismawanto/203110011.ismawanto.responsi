@@ -12,7 +12,7 @@ import com.aregyan.github.R
 import com.aregyan.github.databinding.FragmentUserListBinding
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-//mendeklarasikan penyedia dalam modul viewmodel
+//Todo 8: kelas untuk view fragment
 @AndroidEntryPoint
 class UserListFragment : Fragment() {
     private val viewModel: UserListViewModel by viewModels()
